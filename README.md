@@ -1,3 +1,5 @@
 # Usage: 
+$ virtualenv -p python3 env
 $ source env/bin/activate
-$ python scrape.py genesis 3 15
+$ pip install -r requirements.txt
+$ python scrape.py 
